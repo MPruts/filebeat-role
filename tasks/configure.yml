@@ -1,5 +1,5 @@
 ---
-- name: Configure Kibana
+- name: Configure Filebeat
   become: true
   template:
     src: filebeat.yml.j2
